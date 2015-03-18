@@ -1,0 +1,496 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 7 0 R /F6 8 0 R 
+  /F7 9 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+6 0 obj
+<< /Contents 32 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 31 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+7 0 obj
+<< /BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font >>
+endobj
+8 0 obj
+<< /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font >>
+endobj
+9 0 obj
+<< /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F7 /Subtype /Type1 /Type /Font >>
+endobj
+10 0 obj
+<< /A << /S /URI /Type /Action /URI (http://uva.onlinejudge.org) >> /Border [ 0 0 0 ] /Rect [ 411.3535 270.1736 522.0019 282.1736 ] /Subtype /Link /Type /Annot >>
+endobj
+11 0 obj
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 18 0 R /XYZ 68.69291 738.6772 0 ] /Rect [ 525.3547 270.1736 529.8027 282.1736 ] /Subtype /Link /Type /Annot >>
+endobj
+12 0 obj
+<< /A << /S /URI /Type /Action /URI (http://uva.onlinejudge.org) >> /Border [ 0 0 0 ] /Rect [ 414.3367 234.1736 525.2497 246.1736 ] /Subtype /Link /Type /Annot >>
+endobj
+13 0 obj
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 18 0 R /XYZ 68.69291 738.6772 0 ] /Rect [ 528.6907 234.1736 532.4777 246.1736 ] /Subtype /Link /Type /Annot >>
+endobj
+14 0 obj
+<< /Annots [ 10 0 R 11 0 R 12 0 R 13 0 R ] /Contents 33 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 31 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+15 0 obj
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 14 0 R /XYZ 516.7629 283.4236 0 ] /Rect [ 77.58291 725.4272 83.14291 737.4272 ] /Subtype /Link /Type /Annot >>
+endobj
+16 0 obj
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 14 0 R /XYZ 516.7929 247.4236 0 ] /Rect [ 88.70291 725.4272 94.26291 737.4272 ] /Subtype /Link /Type /Annot >>
+endobj
+17 0 obj
+<< /A << /S /URI /Type /Action /URI (http://uva.onlinejudge.org) >> /Border [ 0 0 0 ] /Rect [ 153.7323 725.4272 532.5827 737.4272 ] /Subtype /Link /Type /Annot >>
+endobj
+18 0 obj
+<< /Annots [ 15 0 R 16 0 R 17 0 R ] /Contents 34 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 31 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+19 0 obj
+<< /Outlines 21 0 R /PageLabels 35 0 R /PageMode /UseNone /Pages 31 0 R /Type /Catalog >>
+endobj
+20 0 obj
+<< /Author () /CreationDate (D:20150203211705-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Programming in C) >>
+endobj
+21 0 obj
+<< /Count 12 /First 22 0 R /Last 26 0 R /Type /Outlines >>
+endobj
+22 0 obj
+<< /Count 3 /Dest [ 6 0 R /XYZ 62.69291 707.0236 0 ] /First 23 0 R /Last 25 0 R /Next 26 0 R /Parent 21 0 R 
+  /Title (Assignment 2b: Wordfinder) >>
+endobj
+23 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 608.0236 0 ] /Next 24 0 R /Parent 22 0 R /Title (Input) >>
+endobj
+24 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 500.0236 0 ] /Next 25 0 R /Parent 22 0 R /Prev 23 0 R /Title (Output) >>
+endobj
+25 0 obj
+<< /Dest [ 6 0 R /XYZ 62.69291 344.0236 0 ] /Parent 22 0 R /Prev 24 0 R /Title (Example) >>
+endobj
+26 0 obj
+<< /Count 4 /Dest [ 14 0 R /XYZ 62.69291 691.8236 0 ] /First 27 0 R /Last 27 0 R /Parent 21 0 R /Prev 22 0 R 
+  /Title (Implementation tips) >>
+endobj
+27 0 obj
+<< /Count 3 /Dest [ 14 0 R /XYZ 62.69291 344.4236 0 ] /First 28 0 R /Last 30 0 R /Parent 26 0 R /Title (Bonus Assignments) >>
+endobj
+28 0 obj
+<< /Dest [ 14 0 R /XYZ 62.69291 314.4236 0 ] /Next 29 0 R /Parent 27 0 R /Title (Online judge) >>
+endobj
+29 0 obj
+<< /Dest [ 14 0 R /XYZ 62.69291 197.4236 0 ] /Next 30 0 R /Parent 27 0 R /Prev 28 0 R /Title (Performance) >>
+endobj
+30 0 obj
+<< /Dest [ 14 0 R /XYZ 62.69291 128.4236 0 ] /Parent 27 0 R /Prev 29 0 R /Title (Visual improvements) >>
+endobj
+31 0 obj
+<< /Count 3 /Kids [ 6 0 R 14 0 R 18 0 R ] /Type /Pages >>
+endobj
+32 0 obj
+<< /Length 4370 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 4 Tm 148.2649 0 Td 24 TL /F2 20 Tf 0 0 0 rg (Programming in C) Tj T* -148.2649 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Deadline: ) Tj /F3 10 Tf 0 0 0 rg (20 February, 23:59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assignment 2b: Wordfinder) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 620.0236 cm
+q
+BT 1 0 0 1 0 50 Tm .221914 Tw 12 TL /F1 10 Tf 0 0 0 rg (Given an m by n grid of letters, \(1 <) Tj (= m, n <) Tj (= 50\), and a list of words, find the location in the grid at which) Tj T* 0 Tw .684198 Tw (those word can be found. A word matches a straight, uninterrupted line of letters in the grid. A word can) Tj T* 0 Tw .538988 Tw (match the letters in the grid regardless of case \(i.e. upper and lower case letters are to be treated as the) Tj T* 0 Tw .362485 Tw (same\). The matching can be done in any of the eight directions either horizontally, vertically or diagonally) Tj T* 0 Tw (through the grid.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 590.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 512.0236 cm
+q
+BT 1 0 0 1 0 62 Tm .508876 Tw 12 TL /F1 10 Tf 0 0 0 rg (Your program should read its input from standard input \() Tj /F4 10 Tf 0 0 0 rg (stdin) Tj /F1 10 Tf 0 0 0 rg (\). The first line gives the size of letter grid) Tj T* 0 Tw .093452 Tw (as a pair of integers m and n, with 1 <) Tj (= m, n <) Tj (= 50. The next m lines contain n letters each; this is the grid) Tj T* 0 Tw 1.147717 Tw (of letters in which the words of the list must be found. The letters in the grid may be in upper or lower) Tj T* 0 Tw .413626 Tw (case. Following the grid of letters, another integer k appears on a line by itself \(1 <) Tj (= k <) Tj (= 20\). The next k) Tj T* 0 Tw .948409 Tw (lines of input contain the list of words to search for, one word per line. These words may contain upper) Tj T* 0 Tw (and lower case letters only \(no spaces, hyphens or other non-alphabetic characters\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 482.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 356.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .421567 Tw (For each word in the word list, your program should put out a pair of integers representing the location of) Tj T* 0 Tw 1.091751 Tw (the corresponding word in the grid. The integers should be separated by a single space where the first) Tj T* 0 Tw 1.816988 Tw (integer is the line in the grid where the first letter of the given word can be found, \(1 represents the) Tj T* 0 Tw .692209 Tw (topmost line in the grid, and m represents the bottommost line\). The second integer is the column in the) Tj T* 0 Tw .149988 Tw (grid where the first letter of the given word can be found \(1 represents the leftmost column in the grid, and) Tj T* 0 Tw .16856 Tw (n represents the rightmost column in the grid\). If a word can be found more than once in the grid, then the) Tj T* 0 Tw .719318 Tw (location which is output should correspond to the uppermost occurrence of the word \(i.e. the occurrence) Tj T* 0 Tw .223322 Tw (which places the first letter of the word closest to the top of the grid\). If two or more words are uppermost,) Tj T* 0 Tw .134431 Tw (the output should correspond to the leftmost of these occurrences. All words can be found at least once in) Tj T* 0 Tw (the grid.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 326.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 308.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sample input:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 118.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 180 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 158 Tm /F4 10 Tf 12 TL (8 11) Tj T* (abcDEFGhigg) Tj T* (hEbkWalDork) Tj T* (FtyAwaldORm) Tj T* (FtsimrLqsrc) Tj T* (byoArBeDeyv) Tj T* (Klcbqwikomk) Tj T* (strEBGadhrb) Tj T* (yUiqlxcnBjf) Tj T* (4) Tj T* (Waldorf) Tj T* (Bambi) Tj T* (Betty) Tj T* (Dagbert) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 98.82362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sample Output:) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+33 0 obj
+<< /Length 7057 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 703.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL (2 5) Tj T* (2 3) Tj T* (1 2) Tj T* (7 8) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 670.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Implementation tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 628.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .274751 Tw (A 2d character array is a natural choice to store the grid of letters. Although not required, it is a good idea) Tj T* 0 Tw .955988 Tw (write a function to print the grid to verify you have read the input correctly. Because of the limits on the) Tj T* 0 Tw (grid size and word list you can use static arrays to store the input data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 610.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Try to avoid magic numbers and literal constants. Instead use definitions such as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 505.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 72.75 288 12 re f*
+.960784 .960784 .862745 rg
+n 0 60.75 114 12 re f*
+.960784 .960784 .862745 rg
+n 0 48.75 96 12 re f*
+.960784 .960784 .862745 rg
+n 0 24.75 318 12 re f*
+.960784 .960784 .862745 rg
+n 0 12.75 42 12 re f*
+.960784 .960784 .862745 rg
+n 48 12.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 12.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 12.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 12.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 150 12.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 162 12.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 192 12.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 30 12 re f*
+BT 1 0 0 1 0 74 Tm 12 TL /F5 10 Tf .25098 .501961 .501961 rg (/* Fixed size limits for all data structures. */) Tj /F4 10 Tf 0 0 0 rg  T* .737255 .478431 0 rg (#define BUFSIZE 512) Tj T* (#define GSIZE 50) Tj T* 0 0 0 rg  T* /F5 10 Tf .25098 .501961 .501961 rg (/* grid_t: 2d char array to store our letter grid. */) Tj /F4 10 Tf 0 0 0 rg  T* /F6 10 Tf 0 .501961 0 rg (typedef) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj .690196 0 .25098 rg (grid_t) Tj 0 0 0 rg ([) Tj 0 0 0 rg (GSIZE) Tj 0 0 0 rg (][) Tj 0 0 0 rg (GSIZE) Tj 0 0 0 rg (];) Tj 0 0 0 rg  T* /F5 10 Tf .25098 .501961 .501961 rg (// ..) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 485.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (or try to use constants where possible:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 356.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 96.75 288 12 re f*
+.960784 .960784 .862745 rg
+n 0 84.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 84.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 60 84.75 42 12 re f*
+.960784 .960784 .862745 rg
+n 108 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 84.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 60.75 372 12 re f*
+.960784 .960784 .862745 rg
+n 0 48.75 96 12 re f*
+.960784 .960784 .862745 rg
+n 0 24.75 318 12 re f*
+.960784 .960784 .862745 rg
+n 0 12.75 42 12 re f*
+.960784 .960784 .862745 rg
+n 48 12.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 12.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 12.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 12.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 150 12.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 162 12.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 192 12.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 30 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F5 10 Tf .25098 .501961 .501961 rg (/* Fixed size limits for all data structures. */) Tj /F4 10 Tf 0 0 0 rg  T* /F6 10 Tf 0 .501961 0 rg (const) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (bufsize) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (512) Tj 0 0 0 rg  T*  T* /F5 10 Tf .25098 .501961 .501961 rg (/* Cannot define array size with C "constants", use define. */) Tj /F4 10 Tf 0 0 0 rg  T* .737255 .478431 0 rg (#define GSIZE 50) Tj T* 0 0 0 rg  T* /F5 10 Tf .25098 .501961 .501961 rg (/* grid_t: 2d char array to store our letter grid. */) Tj /F4 10 Tf 0 0 0 rg  T* /F6 10 Tf 0 .501961 0 rg (typedef) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj .690196 0 .25098 rg (grid_t) Tj 0 0 0 rg ([) Tj 0 0 0 rg (GSIZE) Tj 0 0 0 rg (][) Tj 0 0 0 rg (GSIZE) Tj 0 0 0 rg (];) Tj 0 0 0 rg  T* /F5 10 Tf .25098 .501961 .501961 rg (// ..) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 326.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Bonus Assignments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 299.4236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F7 12.5 Tf 0 0 0 rg (Online judge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 209.4236 cm
+q
+BT 1 0 0 1 0 74 Tm 3.003735 Tw 12 TL /F1 10 Tf 0 0 0 rg (This assignment is taken from a set of practice exercises that are used to train for programming) Tj T* 0 Tw .572784 Tw (competitions. This means you can check your implementation online with the ) Tj 0 0 .501961 rg (Uva online judge system) Tj 0 0 0 rg ( ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (1) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* 0 Tw .96332 Tw (The assignment ID is 10010 and the name is "Where's Waldorf?". You need register to be able to view) Tj T* 0 Tw 1.900751 Tw (and submit assignments. Note that the programming challenge version is slightly different. It requires) Tj T* 0 Tw .660987 Tw (ANSI C and you need to solve multiple lettergrids. See the description on the ) Tj 0 0 .501961 rg (Uva online judge system) Tj 0 0 0 rg ( ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (1) Tj T* 0 Tw .420514 Tw /F1 10 Tf 0 0 0 rg 0 Ts (for the details. As a bonus exercise you can extend your wordfinder such that it is accepted by the online) Tj T* 0 Tw (judge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 182.4236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F7 12.5 Tf 0 0 0 rg (Performance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 140.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.372209 Tw (Can you find ways to make your program more efficient? What are the ways to reduce the number of) Tj T* 0 Tw 1.217209 Tw (comparisons that you need to perform to find all the words. Implement your ideas and test if your new) Tj T* 0 Tw (approach is faster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 113.4236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F7 12.5 Tf 0 0 0 rg (Visual improvements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 83.42362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .594988 Tw (In addition to the coordinates of the words try to emphasize the words in the letter grid using colors or in) Tj T* 0 Tw (some other way. Experiment and see what works best to make the different words stand out.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 76.86614 cm
+Q
+ 
+endstream
+endobj
+34 0 obj
+<< /Length 498 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 736.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 724.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (1\() Tj 0 0 .501961 rg (1) Tj 0 0 0 rg (, ) Tj 0 0 .501961 rg (2) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://uva.onlinejudge.org) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+35 0 obj
+<< /Nums [ 0 36 0 R 1 37 0 R 2 38 0 R ] >>
+endobj
+36 0 obj
+<< /S /D /St 1 >>
+endobj
+37 0 obj
+<< /S /D /St 2 >>
+endobj
+38 0 obj
+<< /S /D /St 3 >>
+endobj
+xref
+0 39
+0000000000 65535 f
+0000000075 00000 n
+0000000173 00000 n
+0000000283 00000 n
+0000000398 00000 n
+0000000516 00000 n
+0000000624 00000 n
+0000000833 00000 n
+0000000949 00000 n
+0000001062 00000 n
+0000001184 00000 n
+0000001366 00000 n
+0000001538 00000 n
+0000001720 00000 n
+0000001892 00000 n
+0000002142 00000 n
+0000002314 00000 n
+0000002486 00000 n
+0000002668 00000 n
+0000002911 00000 n
+0000003020 00000 n
+0000003247 00000 n
+0000003325 00000 n
+0000003494 00000 n
+0000003603 00000 n
+0000003726 00000 n
+0000003837 00000 n
+0000004001 00000 n
+0000004146 00000 n
+0000004263 00000 n
+0000004392 00000 n
+0000004516 00000 n
+0000004593 00000 n
+0000009020 00000 n
+0000016134 00000 n
+0000016688 00000 n
+0000016750 00000 n
+0000016787 00000 n
+0000016824 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\030\266\240K`'?\322\374P\306\315\231\0048o) (\030\266\240K`'?\322\374P\306\315\231\0048o)]
+ /Info 20 0 R /Root 19 0 R /Size 39 >>
+startxref
+16861
+%%EOF
