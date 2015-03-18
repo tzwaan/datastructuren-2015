@@ -1,0 +1,984 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 8 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+6 0 obj
+<< /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font >>
+endobj
+7 0 obj
+<< /Contents 28 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+8 0 obj
+<< /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font >>
+endobj
+9 0 obj
+<< /Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+10 0 obj
+<< /Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+11 0 obj
+<< /Outlines 13 0 R /PageLabels 31 0 R /PageMode /UseNone /Pages 27 0 R /Type /Catalog >>
+endobj
+12 0 obj
+<< /Author () /CreationDate (D:20150215204506-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Programming in C) >>
+endobj
+13 0 obj
+<< /Count 16 /First 14 0 R /Last 14 0 R /Type /Outlines >>
+endobj
+14 0 obj
+<< /Count 12 /Dest [ 7 0 R /XYZ 62.69291 707.0236 0 ] /First 15 0 R /Last 23 0 R /Parent 13 0 R /Title (Assignment 3: Text compression) >>
+endobj
+15 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 674.0236 0 ] /Next 16 0 R /Parent 14 0 R /Title (Introduction) >>
+endobj
+16 0 obj
+<< /Dest [ 7 0 R /XYZ 62.69291 566.0236 0 ] /Next 17 0 R /Parent 14 0 R /Prev 15 0 R /Title (Compression method) >>
+endobj
+17 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 603.8236 0 ] /Next 18 0 R /Parent 14 0 R /Prev 16 0 R /Title (Removing words from the table) >>
+endobj
+18 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 277.4236 0 ] /Next 19 0 R /Parent 14 0 R /Prev 17 0 R /Title (Assignment) >>
+endobj
+19 0 obj
+<< /Count 3 /Dest [ 9 0 R /XYZ 62.69291 205.4236 0 ] /First 20 0 R /Last 22 0 R /Next 23 0 R /Parent 14 0 R 
+  /Prev 18 0 R /Title (Implementation tips) >>
+endobj
+20 0 obj
+<< /Dest [ 9 0 R /XYZ 62.69291 175.4236 0 ] /Next 21 0 R /Parent 19 0 R /Title (Splitting lines) >>
+endobj
+21 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 683.8236 0 ] /Next 22 0 R /Parent 19 0 R /Prev 20 0 R /Title (Linked list) >>
+endobj
+22 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 501.6236 0 ] /Parent 19 0 R /Prev 21 0 R /Title (Miscellaneous) >>
+endobj
+23 0 obj
+<< /Count 3 /Dest [ 10 0 R /XYZ 62.69291 372.6236 0 ] /First 24 0 R /Last 26 0 R /Parent 14 0 R /Prev 19 0 R 
+  /Title (Bonus assignments) >>
+endobj
+24 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 342.6236 0 ] /Next 25 0 R /Parent 23 0 R /Title (Order by frequency) >>
+endobj
+25 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 225.6236 0 ] /Next 26 0 R /Parent 23 0 R /Prev 24 0 R /Title (Write your own encoder) >>
+endobj
+26 0 obj
+<< /Dest [ 10 0 R /XYZ 62.69291 168.6236 0 ] /Parent 23 0 R /Prev 25 0 R /Title (Improve the compression ratio) >>
+endobj
+27 0 obj
+<< /Count 3 /Kids [ 7 0 R 9 0 R 10 0 R ] /Type /Pages >>
+endobj
+28 0 obj
+<< /Length 9649 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 148.2649 0 Td (Programming in C) Tj T* -148.2649 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Deadline: ) Tj /F3 10 Tf 0 0 0 rg (6 March, 23:59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assignment 3: Text compression) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 578.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .05061 Tw (The friend you helped checking euro bank notes serial numbers was very impressed with the program you) Tj T* 0 Tw 1.240514 Tw (wrote for him. And as often happens in these cases he is asking for your help again. He came across) Tj T* 0 Tw 1.543735 Tw (some documentation that he needs for his work but it is compressed with a strange text compression) Tj T* 0 Tw 2.16811 Tw (method. The problem is that he cannot find the decompression utility, but luckily he knows how the) Tj T* 0 Tw 1.063876 Tw (compression method works. Your job is to help your friend once again by writing a C program that can) Tj T* 0 Tw (decompress his text files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 548.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Compression method) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 494.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.714985 Tw 12 TL /F1 10 Tf 0 0 0 rg (The idea behind the compression method is to take advantage of the repetition of words. Words that) Tj T* 0 Tw .274274 Tw (appear frequently in the text are stored in a list. These words in the input text can then be replaced with a) Tj T* 0 Tw .126179 Tw (index into the list, reducing the size of the encoded text. Words that are marked with a ) Tj /F4 10 Tf 0 0 0 rg (* ) Tj /F1 10 Tf 0 0 0 rg (are added to the) Tj T* 0 Tw (list. The next time that a starred word appears in the input text it is replaced with the list index of the word.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 440.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.205488 Tw 12 TL /F1 10 Tf 0 0 0 rg (In the following table we show how to the list changes as we decode a short piece of text. Words that) Tj T* 0 Tw .249036 Tw (have been read appear in boldface. The first six words are all marked with a star, so they are all added to) Tj T* 0 Tw 2.038876 Tw (the front of the list in the order they are read. After reading the word ) Tj /F4 10 Tf 0 0 0 rg (programming* ) Tj /F1 10 Tf 0 0 0 rg (we have the) Tj T* 0 Tw (following input and list state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 434.0236 cm
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+1 1 1 rg
+n 0 120 469.8898 -120 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 7.8 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 342 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F5 10 Tf 0 0 0 rg (As* soon* as* we* started* programming*) Tj /F4 10 Tf (, 2 found*) Tj T* (to our surprise* that it wasn\222t* 6 easy to* get) Tj T* (programs right 7 6 had thought.  Debugging* had* 2 be) Tj T* (discovered. I can remember the exact instant when I*) Tj T* (realized that* a large part of my life from then on was) Tj T* (going 4 be spent in finding mistakes in my own) Tj T* (programs*.) Tj T* (\227 Maurice Wilkes discovers debugging, [1949]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 358.4173 111 cm
+Q
+q
+1 0 0 1 358.4173 3 cm
+1 1 1 rg
+n 0 108 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 90 105.4724 -18 re f*
+1 1 1 rg
+n 0 72 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 54 105.4724 -18 re f*
+1 1 1 rg
+n 0 36 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 18 105.4724 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (programming) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (started) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (we) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (as) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (soon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (As) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 90 m 105.4724 90 l S
+n 0 72 m 105.4724 72 l S
+n 0 54 m 105.4724 54 l S
+n 0 36 m 105.4724 36 l S
+n 0 18 m 105.4724 18 l S
+n 21.09449 0 m 21.09449 108 l S
+n 0 108 m 105.4724 108 l S
+n 0 0 m 105.4724 0 l S
+n 0 0 m 0 108 l S
+n 105.4724 0 m 105.4724 108 l S
+Q
+Q
+q
+1 0 0 1 358.4173 3 cm
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 352.4173 0 m 352.4173 120 l S
+n 0 120 m 469.8898 120 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 120 l S
+n 469.8898 0 m 469.8898 120 l S
+Q
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+Q
+q
+1 0 0 1 62.69291 272.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .971988 Tw 12 TL /F1 10 Tf 0 0 0 rg (Next we read the index 2 that matches the word ) Tj /F4 10 Tf 0 0 0 rg (we ) Tj /F1 10 Tf 0 0 0 rg (in the list. The decoder has now decoded the text) Tj T* 0 Tw .103318 Tw /F4 10 Tf 0 0 0 rg (As) Tj ( ) Tj (soon) Tj ( ) Tj (as) Tj ( ) Tj (we) Tj ( ) Tj (started programming,) Tj ( ) Tj (we) Tj /F1 10 Tf 0 0 0 rg (. We continue reading and adding starred words until we) Tj T* 0 Tw (reach the index 6. The input state and list now look like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 266.0236 cm
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+1 1 1 rg
+n 0 174 469.8898 -174 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 61.8 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 342 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F5 10 Tf 0 0 0 rg (As* soon* as* we* started* programming*, 2 found*) Tj T* (to our surprise* that it wasn\222t*) Tj /F4 10 Tf ( 6 easy to* get) Tj T* (programs right 7 6 had thought.  Debugging* had* 2 be) Tj T* (discovered. I can remember the exact instant when I*) Tj T* (realized that* a large part of my life from then on was) Tj T* (going 4 be spent in finding mistakes in my own) Tj T* (programs*.) Tj T* (\227 Maurice Wilkes discovers debugging, [1949]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 358.4173 165 cm
+Q
+q
+1 0 0 1 358.4173 3 cm
+1 1 1 rg
+n 0 162 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 144 105.4724 -18 re f*
+1 1 1 rg
+n 0 126 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 108 105.4724 -18 re f*
+1 1 1 rg
+n 0 90 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 105.4724 -18 re f*
+1 1 1 rg
+n 0 54 105.4724 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 105.4724 -18 re f*
+1 1 1 rg
+n 0 18 105.4724 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (wasn\222t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (surprise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (programming) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (started) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (we) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (as) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (soon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 27.09449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (As) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 144 m 105.4724 144 l S
+n 0 126 m 105.4724 126 l S
+n 0 108 m 105.4724 108 l S
+n 0 90 m 105.4724 90 l S
+n 0 72 m 105.4724 72 l S
+n 0 54 m 105.4724 54 l S
+n 0 36 m 105.4724 36 l S
+n 0 18 m 105.4724 18 l S
+n 21.09449 0 m 21.09449 162 l S
+n 0 162 m 105.4724 162 l S
+n 0 0 m 105.4724 0 l S
+n 0 0 m 0 162 l S
+n 105.4724 0 m 105.4724 162 l S
+Q
+Q
+q
+1 0 0 1 358.4173 3 cm
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 352.4173 0 m 352.4173 174 l S
+n 0 174 m 469.8898 174 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 174 l S
+n 469.8898 0 m 469.8898 174 l S
+Q
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+Q
+ 
+endstream
+endobj
+29 0 obj
+<< /Length 6673 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .104988 Tw 12 TL /F1 10 Tf 0 0 0 rg (The decoder looks up index 6 and prints the word ) Tj /F4 10 Tf 0 0 0 rg (as) Tj /F1 10 Tf 0 0 0 rg (, and it continues adding starred words to the list and) Tj T* 0 Tw (looking up the indexed words until the input text is decoded as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 647.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F4 10 Tf 12 TL (As soon as we started programming, we found to our surprise that it) Tj T* (wasn\222t as easy to get programs right as we had thought. Debugging had) Tj T* (to be discovered. I can remember the exact instant when I realized) Tj T* (that a large part of my life from then on was going to be spent in) Tj T* (finding mistakes in my own programs.) Tj T* (\227 Maurice Wilkes discovers debugging, 1949) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 615.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .899513 Tw 12 TL /F1 10 Tf 0 0 0 rg (Note that as we add words to the front of the list the index used to replace the word ) Tj /F4 10 Tf 0 0 0 rg (we ) Tj /F1 10 Tf 0 0 0 rg (changes. First) Tj T* 0 Tw (index 2 and later index 6 was used to reference ) Tj /F4 10 Tf 0 0 0 rg (we ) Tj /F1 10 Tf 0 0 0 rg (in the list.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Removing words from the table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .490444 Tw (The encoder decides the words it wants to add to the list by marking them with a star. So it could add all) Tj T* 0 Tw .381894 Tw (the new words it encounters to the list. The result would be a very large list and large indices into that list) Tj T* 0 Tw 1.320574 Tw (in the encoded text. The compression ratio would suffer and it would also slow down the encoder and) Tj T* 0 Tw (decoder.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.8236 cm
+q
+BT 1 0 0 1 0 62 Tm .787045 Tw 12 TL /F1 10 Tf 0 0 0 rg (For this reason the encoder limits the number of words in the starred-list with the ) Tj /F4 10 Tf 0 0 0 rg (-l ) Tj /F1 10 Tf 0 0 0 rg (option. Frequently) Tj T* 0 Tw .065488 Tw (used words are added, but as the frequency of words in the text can change over time, we need the ability) Tj T* 0 Tw .757984 Tw (to remove words from the starred-list when their usage frequency drops. So the following extension was) Tj T* 0 Tw .488876 Tw (added to the compression scheme. Words tagged with a ) Tj /F4 10 Tf 0 0 0 rg (~ ) Tj /F1 10 Tf 0 0 0 rg (are removed from the list and from that point) Tj T* 0 Tw 1.025868 Tw (on cannot be compressed with a index number until they are added again somewhere further on in the) Tj T* 0 Tw (text.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 423.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .057765 Tw 12 TL /F1 10 Tf 0 0 0 rg (To see how the encoder would use ) Tj /F4 10 Tf 0 0 0 rg (~ ) Tj /F1 10 Tf 0 0 0 rg (to remove words from the starred-list, we examine the following text) Tj T* 0 Tw (encoded with a starred-list of size 1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 390.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (test*, one, two, one* two, 0, two, test~, 0, two, test.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 322.6236 cm
+q
+BT 1 0 0 1 0 50 Tm .334987 Tw 12 TL /F1 10 Tf 0 0 0 rg (First ) Tj /F4 10 Tf 0 0 0 rg (test ) Tj /F1 10 Tf 0 0 0 rg (is added but it is later replaced by ) Tj /F4 10 Tf 0 0 0 rg (one) Tj /F1 10 Tf 0 0 0 rg (, because the encoder noticed that ) Tj /F4 10 Tf 0 0 0 rg (one ) Tj /F1 10 Tf 0 0 0 rg (appears more) Tj T* 0 Tw .279431 Tw (often than ) Tj /F4 10 Tf 0 0 0 rg (test) Tj /F1 10 Tf 0 0 0 rg (. The third occurrence of ) Tj /F4 10 Tf 0 0 0 rg (one ) Tj /F1 10 Tf 0 0 0 rg (is replaced with the index 0. The next occurrence of ) Tj /F4 10 Tf 0 0 0 rg (test) Tj T* 0 Tw .184988 Tw /F1 10 Tf 0 0 0 rg (is flagged with a ) Tj /F4 10 Tf 0 0 0 rg (~ ) Tj /F1 10 Tf 0 0 0 rg (to signal that is has been removed from the starred-list. There was only ) Tj /F4 10 Tf 0 0 0 rg (one ) Tj /F1 10 Tf 0 0 0 rg (spot and) Tj T* 0 Tw .405251 Tw (that is currently occupied by ) Tj /F4 10 Tf 0 0 0 rg (one) Tj /F1 10 Tf 0 0 0 rg (. Next we see that ) Tj /F4 10 Tf 0 0 0 rg (one ) Tj /F1 10 Tf 0 0 0 rg (is replaced with index 0 again but ) Tj /F4 10 Tf 0 0 0 rg (test ) Tj /F1 10 Tf 0 0 0 rg (cannot) Tj T* 0 Tw (be replaced with an index as it not in the starred list. The decoded text is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 289.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (test, one, two, one two, one, two, test, one, two, test.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 259.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Assignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 217.4236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.286412 Tw 12 TL /F1 10 Tf 0 0 0 rg (For the assignment you need to implement the decoder for the compression scheme explained above.) Tj T* 0 Tw .099988 Tw (The ) Tj /F3 10 Tf (strict ) Tj /F1 10 Tf (requirement for this assignment is that you need to create a ) Tj /F3 10 Tf (linked list ) Tj /F1 10 Tf (data structure to store the) Tj T* 0 Tw (starred-list. The linked list data allow you to efficiently insert and remove words from the starred list.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 187.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Implementation tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 160.4236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Splitting lines) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 94.42362 cm
+q
+BT 1 0 0 1 0 50 Tm .444431 Tw 12 TL /F1 10 Tf 0 0 0 rg (File input and string manipulation are not the strong points of the C language. We provide you with some) Tj T* 0 Tw 1.759213 Tw (template code \() Tj /F4 10 Tf 0 0 0 rg (template_code/decoder.c) Tj /F1 10 Tf 0 0 0 rg (\) that splits lines into words based on a set of delimiter) Tj T* 0 Tw .601751 Tw (characters. If you decide to use the template code, check the manual page of ) Tj /F4 10 Tf 0 0 0 rg (strpbrk\(\) ) Tj /F1 10 Tf 0 0 0 rg (so you know) Tj T* 0 Tw 1.247209 Tw (what the function does. If you decide to write your own main decoder function you should still use this) Tj T* 0 Tw (definition of a set of characters that delimit a word:) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+30 0 obj
+<< /Length 10275 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 727.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.737255 .478431 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (#define DELIM "!?\\",. \\n") Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 695.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.216098 Tw (This is the definition that the encoder uses to compress the text, using a different set of characters for) Tj T* 0 Tw (decoding will break the encoding method.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 668.8236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Linked list) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 638.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.909398 Tw (The functions and structures that implement the linked list should be stored in a separate C file and) Tj T* 0 Tw (corresponding header file. The interface of your linked list should have functions that are similar to these:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 545.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 60.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 60.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 66 60.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 60.75 54 12 re f*
+.960784 .960784 .862745 rg
+n 132 60.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 48.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 48.75 48 12 re f*
+.960784 .960784 .862745 rg
+n 78 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 48.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 48.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 48.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 210 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 48.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 48.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 36.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 36.75 66 12 re f*
+.960784 .960784 .862745 rg
+n 102 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 36.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 180 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 36.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 234 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 36.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 24.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 24.75 78 12 re f*
+.960784 .960784 .862745 rg
+n 114 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 24.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 24.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 24.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 240 24.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 270 24.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 12.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 12.75 60 12 re f*
+.960784 .960784 .862745 rg
+n 90 12.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 12.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 138 12.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 168 12.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 12.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 12.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 .75 72 12 re f*
+.960784 .960784 .862745 rg
+n 96 .75 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 .75 36 12 re f*
+.960784 .960784 .862745 rg
+n 144 .75 24 12 re f*
+.960784 .960784 .862745 rg
+n 174 .75 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 .75 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 .75 12 12 re f*
+BT 1 0 0 1 0 62 Tm 12 TL /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_init) Tj 0 0 0 rg (\(\);) Tj 0 0 0 rg  T* .690196 0 .25098 rg (void) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_add) Tj 0 0 0 rg (\() Tj /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (l) Tj 0 0 0 rg (,) Tj 0 0 0 rg ( ) Tj .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (d) Tj 0 0 0 rg (\);) Tj 0 0 0 rg  T* .690196 0 .25098 rg (char) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_remove) Tj 0 0 0 rg (\() Tj /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (l) Tj 0 0 0 rg (,) Tj 0 0 0 rg ( ) Tj .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (d) Tj 0 0 0 rg (\);) Tj 0 0 0 rg  T* .690196 0 .25098 rg (char) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_at_index) Tj 0 0 0 rg (\() Tj /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (l) Tj 0 0 0 rg (,) Tj 0 0 0 rg ( ) Tj .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (index) Tj 0 0 0 rg (\);) Tj 0 0 0 rg  T* .690196 0 .25098 rg (void) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_print) Tj 0 0 0 rg (\() Tj /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (l) Tj 0 0 0 rg (\);) Tj 0 0 0 rg  T* .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (list_cleanup) Tj 0 0 0 rg (\() Tj /F5 10 Tf 0 .501961 0 rg (struct) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (list) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (l) Tj 0 0 0 rg (\);) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 513.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .16832 Tw (Note that this list stores character pointers. You could decide to make your list more generic by using void) Tj T* 0 Tw (pointers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 486.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Miscellaneous) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 384.6236 cm
+q
+BT 1 0 0 1 0 86 Tm .101412 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf 0 0 0 rg (template_code ) Tj /F1 10 Tf 0 0 0 rg (directory contains an ) Tj /F4 10 Tf 0 0 0 rg (input ) Tj /F1 10 Tf 0 0 0 rg (directory with test cases. Some encoded files will not) Tj T* 0 Tw .347356 Tw (contain the ) Tj /F4 10 Tf 0 0 0 rg (~ ) Tj /F1 10 Tf 0 0 0 rg (markers to remove words. It is a good idea to make sure that your decoder works correctly) Tj T* 0 Tw .568221 Tw (for these tests before attempting test cases with tildes. We have included the encoder so you can create) Tj T* 0 Tw 1.752927 Tw (your own test cases. ) Tj /F4 10 Tf 0 0 0 rg (make) Tj ( ) Tj (check ) Tj /F1 10 Tf 0 0 0 rg (encodes and then decodes all the test cases and checks if they) Tj T* 0 Tw 1.539488 Tw (match using the tables sizes 0, 1 and 9. The test cases currently only pass the test with table size 0) Tj T* 0 Tw 1.004198 Tw (because that encoding will not change the input text. The tests fail with table size 1 and 9 because the) Tj T* 0 Tw .145251 Tw (decoder template is not functional. The regular tests do not contain invalid list indices or stray ) Tj /F4 10 Tf 0 0 0 rg (*) Tj /F1 10 Tf 0 0 0 rg ('s or ) Tj /F4 10 Tf 0 0 0 rg (~) Tj /F1 10 Tf 0 0 0 rg ('s. A) Tj T* 0 Tw (good defensively written decoder should still check for these cases of course.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 354.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Bonus assignments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Order by frequency) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.6236 cm
+q
+BT 1 0 0 1 0 74 Tm .421567 Tw 12 TL /F1 10 Tf 0 0 0 rg (The regular encoder appends starred words to the front of the word list. But there is also a version called) Tj T* 0 Tw .96936 Tw /F4 10 Tf 0 0 0 rg (freq-encoder ) Tj /F1 10 Tf 0 0 0 rg (that orders the list of starred words by their frequency. This mode has a slightly higher) Tj T* 0 Tw 1.203984 Tw (compression ratio as frequently occuring words will have lower indices. It saves a couple of characters) Tj T* 0 Tw .150488 Tw (when you use index 3 instead 33 or 101. The starred word list is ordered by frequency, and for words with) Tj T* 0 Tw 1.607984 Tw (the same frequency by decreasing word length. When these are all equal the alphabetical ordering is) Tj T* 0 Tw .262093 Tw (used. To decode such a file the decoder also needs to keep it's own starred-list ordered in the same way.) Tj T* 0 Tw (Implement this method and test your program with test cases generated by the ) Tj /F4 10 Tf 0 0 0 rg (freq-encoder) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 210.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Write your own encoder) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 180.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .070514 Tw (You can also decide to write your own encoder for this assignment. Make sure it behaves the same as the) Tj T* 0 Tw (encoder provided for this assignment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Improve the compression ratio) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.62362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .050651 Tw (Instead of implementing the method described here, maybe you can improve on the encoding method and) Tj T* 0 Tw 1.230697 Tw (achieve better compression ratios than our encoder. Measure the compression ratio's for the large test) Tj T* 0 Tw 1.645318 Tw (cases with different table sizes. Think how the text replacement method could be improved, and then) Tj T* 0 Tw .437045 Tw (implement an encoder and decoder that uses your own replacement scheme and see if you can beat the) Tj T* 0 Tw (best compression ratio achieved by the freq-encoder.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+31 0 obj
+<< /Nums [ 0 32 0 R 1 33 0 R 2 34 0 R ] >>
+endobj
+32 0 obj
+<< /S /D /St 1 >>
+endobj
+33 0 obj
+<< /S /D /St 2 >>
+endobj
+34 0 obj
+<< /S /D /St 3 >>
+endobj
+xref
+0 35
+0000000000 65535 f
+0000000075 00000 n
+0000000159 00000 n
+0000000269 00000 n
+0000000384 00000 n
+0000000502 00000 n
+0000000610 00000 n
+0000000723 00000 n
+0000000932 00000 n
+0000001054 00000 n
+0000001263 00000 n
+0000001473 00000 n
+0000001582 00000 n
+0000001809 00000 n
+0000001887 00000 n
+0000002045 00000 n
+0000002161 00000 n
+0000002296 00000 n
+0000002442 00000 n
+0000002569 00000 n
+0000002745 00000 n
+0000002864 00000 n
+0000002993 00000 n
+0000003111 00000 n
+0000003273 00000 n
+0000003396 00000 n
+0000003536 00000 n
+0000003670 00000 n
+0000003746 00000 n
+0000013452 00000 n
+0000020182 00000 n
+0000030515 00000 n
+0000030577 00000 n
+0000030614 00000 n
+0000030651 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(H\242-\321S$\354.\253\022\356\016\246\365\354T) (H\242-\321S$\354.\253\022\356\016\246\365\354T)]
+ /Info 12 0 R /Root 11 0 R /Size 35 >>
+startxref
+30688
+%%EOF
