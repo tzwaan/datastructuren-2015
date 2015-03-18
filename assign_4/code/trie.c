@@ -6,13 +6,25 @@
 
 struct tnode {
     int ends;
+    char *edges;
     tnode **nodes;
 };
 
 tnode *trie_init() {
     tnode *trie = calloc(1, sizeof(trie));
+    trie->edges = calloc(26, sizeof(char));
     trie->nodes = calloc(26, sizeof(tnode*));
     return trie;
+}
+
+int in_node(tnode *node, char c) {
+    char *ptr = strchr(node->edges, c);
+    if (ptr) {
+        return ptr - node->edges;
+    }
+    return -1;
+}
+int add_node(tnode *node, char c) {
 }
 
 /* testing made clear that this was slower than the sequential solution below

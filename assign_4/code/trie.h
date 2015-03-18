@@ -5,6 +5,7 @@ typedef struct tnode tnode;
  * Return: ...
  */
 tnode *trie_init();
+int in_node(tnode *n, char c);
 
 /* Add word w to trie t.
  * Return: ...
