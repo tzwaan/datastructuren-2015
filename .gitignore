@@ -1,3 +1,7 @@
 *.tbz
 *.tgz
 *.swp
+
+*.aux
+*.log
+*.out
