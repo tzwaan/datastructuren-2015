@@ -1,0 +1,191 @@
+%----------------------------------------------------------------------------------------
+%	LATEX TECHNISCH RAPPORT TEMPLATE
+%	Versie 1.1 (4 februari 2015)
+%	Opmerkingen of feedback naar Robert van Wijk
+%					(robertvanwijk@uva.nl)
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage[dutch]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xifthen}
+\usepackage{algorithm2e}
+\usepackage{hyperref}
+
+%----------------------------------------------------------------------------------------
+%	HEADER & FOOTER
+%----------------------------------------------------------------------------------------
+\pagestyle{fancy}
+  \lhead{\includegraphics[width=7cm]{logoUvA}}		%Zorg dat het logo in dezelfde map staat
+  \rhead{\footnotesize \textsc {Technisch rapport\\ \opdracht}}
+  \lfoot
+    {
+	\footnotesize \studentA
+	\ifthenelse{\isundefined{\studentB}}{}{\\ \studentB}
+	\ifthenelse{\isundefined{\studentC}}{}{\\ \studentC}
+	\ifthenelse{\isundefined{\studentD}}{}{\\ \studentD}
+	\ifthenelse{\isundefined{\studentE}}{}{\\ \studentE}
+    }
+  \cfoot{}
+  \rfoot{\small \textsc {Pagina \thepage\ van \pageref{LastPage}}}
+  \renewcommand{\footrulewidth}{0.5pt}
+
+\fancypagestyle{firststyle}
+ {
+  \fancyhf{}
+   \renewcommand{\headrulewidth}{0pt}
+   \chead{\includegraphics[width=7cm]{logoUvA}}
+   \rfoot{\small \textsc {Pagina \thepage\ van \pageref{LastPage}}}
+ }
+
+\setlength{\topmargin}{-0.3in}
+\setlength{\textheight}{630pt}
+\setlength{\headsep}{40pt}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATIE
+%----------------------------------------------------------------------------------------
+%Geef bij ieder command het juiste argument voor deze opdracht. Vul het hier in en het komt op meerdere plekken in het document correct te staan.
+
+\newcommand{\titel}{Auto Complete}			%Zelfbedachte titel
+\newcommand{\opdracht}{Technisch rapport}			%Naam van opdracht die je van docent gehad hebt
+\newcommand{\docent}{Floris Kroon}		%Liefst de naam van diegene die het beoordeeld
+\newcommand{\cursus}{Datastructuren}
+\newcommand{\vakcode}{5062DATA6Y}			%Te vinden op oa Datanose
+\newcommand{\datum}{\today}					%Pas aan als je niet de datum van vanaag wilt hebben
+\newcommand{\studentA}{Anonymous}
+\newcommand{\uvanetidA}{10208917}
+%\newcommand{\studentB}{Naam student 2}			%Uncomment de regel als je met twee studenten werkt
+\newcommand{\uvanetidB}{UvAnetID student 2}
+%\newcommand{\studentC}{Naam student 3}		%Uncomment de regel als je met drie studenten werkt
+\newcommand{\uvanetidC}{UvAnetID student 3}
+%\newcommand{\studentD}{Naam student 4}		%Uncomment de regel als je met vier studenten werkt
+\newcommand{\uvanetidD}{UvAnetID student 4}
+%\newcommand{\studentE}{Naam student 5}			%Uncomment de regel als je met vijf studenten werkt
+\newcommand{\uvanetidE}{UvAnetID student 5}
+
+%----------------------------------------------------------------------------------------
+%	AUTOMATISCHE TITEL
+%----------------------------------------------------------------------------------------
+\begin{document}
+\thispagestyle{firststyle}
+\begin{center}
+	\textsc{\Large \opdracht}\\[0.2cm]
+		\rule{\linewidth}{0.5pt} \\[0.4cm]
+			{ \huge \bfseries \titel}
+		\rule{\linewidth}{0.5pt} \\[0.2cm]
+	{\large \datum  \\[0.4cm]}
+
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\emph{Student:}\\
+			{\studentA \\ {\small \uvanetidA \\[0.2cm]}}
+				\ifthenelse{\isundefined{\studentB}}{}{\studentB \\ {\small \uvanetidB \\[0.2cm]}}
+				\ifthenelse{\isundefined{\studentC}}{}{\studentC \\ {\small \uvanetidC \\[0.2cm]}}
+				\ifthenelse{\isundefined{\studentD}}{}{\studentD \\ {\small \uvanetidD \\[0.2cm]}}
+				\ifthenelse{\isundefined{\studentE}}{}{\studentE \\ {\small \uvanetidE \\[0.2cm]}}
+		\end{flushleft}
+	\end{minipage}
+~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\emph{Docent:} \\
+			\docent \\[0.2cm]
+			\emph{Cursus:} \\
+			\cursus \\[0.2cm]
+			\emph{Vakcode:} \\
+			\vakcode \\[0.2cm]
+		\end{flushright}
+	\end{minipage}\\[1 cm]
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	INHOUDSOPGAVE EN ABSTRACT
+%----------------------------------------------------------------------------------------
+%Niet doen bij korte rapporten
+
+%\tableofcontents
+%\begin{abstract}
+%\lorem[13]
+%\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTIE
+%----------------------------------------------------------------------------------------
+
+\section{Introductie}
+Het doel van deze opdracht is om een automatische aanvulfunctie te maken voor
+woorden, gebaseerd op een woordenboek dat wordt opgebouwd uit een
+gespecificeerde tekst. Het moet daarbij ook mogelijk zijn om woorden uit het
+woordenboek te verwijderen. Het de bedoeling dat een trie-datastructuur
+gebruikt wordt.
+
+%\subsection{Definities}
+%\subsection{Vraagstelling}
+
+%----------------------------------------------------------------------------------------
+%	METHODE
+%----------------------------------------------------------------------------------------
+
+\section{Methode}
+De `trie' datastructuur lijkt op een normale `tree' datastructuur. Echter wordt
+er geen data in de nodes opgeslagen, maar in de edges van de trie. Zo zal er
+voor alle woorden in het woordenboek beginnend met dezelfde letter slechts
+\'e\'en node aangemaakt worden. De edge heeft daarbij de waarde van de letter,
+en de node bevat alleen nieuwe edges naar de volgende letters van de
+verschillende woorden.
+
+\subsection{Algoritme}
+Er is gekozen voor een recursieve aanpak van deze datastructuur, aangezien
+iedere node zich hetzelfde gedraagt als zowel zijn children als zijn parents.
+
+Op het moment bevat iedere node een pointer-array naar zijn children, en een
+flag of er een woord eindigt op die node. Echter zorgt dit ervoor dat er geen
+letters buiten het standaard alfabet gebruikt kunnen worden.
+
+%\subsection{Diagram}
+%\subsection{Procedure}
+%\subsection{Software en apparatuur}
+
+%----------------------------------------------------------------------------------------
+%	RESULTATEN
+%----------------------------------------------------------------------------------------
+
+\section{Resultaten}
+
+Er zijn nog geen testresultaten.
+
+%----------------------------------------------------------------------------------------
+%	DISCUSSIE
+%----------------------------------------------------------------------------------------
+
+\section{Discussie}
+
+Er is nog geen discussie.
+
+%\subsection{Implicaties en aanbevelingen}
+%\subsection{Conclusie}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENTIES
+%----------------------------------------------------------------------------------------
+%Meer informatie hierover volgt in blok 5 van jaar 1.
+
+\bibliographystyle{acm}
+
+%----------------------------------------------------------------------------------------
+%	BIJLAGEN
+%----------------------------------------------------------------------------------------
+
+%\section{Bijlage A}
+%\section{Bijlage B}
+%\section{Bijlage C}
+
+\end{document}
