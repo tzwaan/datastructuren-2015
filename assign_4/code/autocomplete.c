@@ -9,7 +9,7 @@
 #include "trie.h"
 
 #define BUF_SIZE 10000
-#define DELIM "-!?\",. \n(){}"
+#define DELIM "-!?\",. \n"
 
 void usage(char* prog) {
     fprintf(stderr, "Usage %s\n"
@@ -103,6 +103,7 @@ int main(int argc, char* argv[]) {
         while (fgets(linebuf, BUF_SIZE, rmfile) != NULL) {
             w = strtok(linebuf, DELIM); // strtok receives the new line of text.
             while (w) {
+                printf("Removing word '%s'\n", w);
                 trie_remove(t, w);
                 w = strtok(NULL, DELIM); // get next token from current line.
             }

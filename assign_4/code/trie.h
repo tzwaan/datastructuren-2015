@@ -44,3 +44,4 @@ int trie_count(tnode *t);
 int trie_cleanup(tnode *t);
 
 int ctoi(char c);
+int ctoc(char c);
