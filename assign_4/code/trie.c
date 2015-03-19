@@ -34,7 +34,7 @@ void add_node(tnode *node, char c) {
     c = ctoc(c);
     if (node->nrnodes == node->arrlen) {
         node->arrlen += ARR_SIZE;
-        node->edges = (char*) realloc(node->edges, (node->arrlen) * sizeof(char));
+        node->edges = (char*) realloc(node->edges, (node->arrlen + 1) * sizeof(char));
         node->nodes = (tnode**) realloc(node->nodes, (node->arrlen) * sizeof(tnode*));
     }
     node->edges[node->nrnodes] = c;
@@ -43,6 +43,7 @@ void add_node(tnode *node, char c) {
     node->nodes[node->nrnodes]->nodes = calloc(ARR_SIZE, sizeof(tnode*));
     node->nodes[node->nrnodes]->arrlen = ARR_SIZE;
     node->nrnodes++;
+    node->edges[node->nrnodes] = '\0';
 }
 void del_node(tnode *node, char c) {
     c = ctoc(c);
@@ -52,7 +53,7 @@ void del_node(tnode *node, char c) {
         free(node->nodes[i]->nodes);
         free(node->nodes[i]);
 
-        for (j=i; j<node->nrnodes; j++) {
+        for (j=i; j<node->nrnodes-1; j++) {
             node->nodes[j] = node->nodes[j+1];
             node->edges[j] = node->edges[j+1];
         }
@@ -76,8 +77,8 @@ int trie_add(tnode* node, char* w) {
         i++;
     }
     /* if word does not yet exist, set word and return 1 */
-    if (!node->ends) {
-        node->ends = 1;
+    node->ends++;
+    if (node->ends == 1) {
         return 1;
     }
     return 0;
@@ -128,16 +129,17 @@ tnode *trie_lookup(tnode *node, char* w) {
 int trie_remove(tnode *n, char *w) {
     int wi;
     if (*w == '\0') {
+        if (!n->nrnodes)
+            return 1;
         n->ends = 0;
-        if (n->nrnodes)
-            return 0;
-        return 1;
+        return 0;
     }
     if ((wi = in_node(n, *w)) != -1) {
         if (trie_remove(n->nodes[wi], w+1)) {
             del_node(n, *w);
-            if (n->nrnodes)
+            if (n->nrnodes) {
                 return 0;
+            }
             return 1;
         }
     }
@@ -198,8 +200,7 @@ int trie_cleanup(tnode *n) {
     int i,
         total = 0;
     for (i=0; i<n->nrnodes; i++) {
-        if (n->nodes[i])
-            total += trie_cleanup(n->nodes[i]);
+        total += trie_cleanup(n->nodes[i]);
     }
     if (n->ends)
         total++;
