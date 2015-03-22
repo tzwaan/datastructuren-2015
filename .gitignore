@@ -2,6 +2,10 @@
 *.tgz
 *.swp
 
+*.tar.gz
+*.gz
+*.tgz
+
 *.aux
 *.log
 *.out

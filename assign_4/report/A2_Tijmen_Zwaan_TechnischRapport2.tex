@@ -59,7 +59,7 @@
 \newcommand{\cursus}{Datastructuren}
 \newcommand{\vakcode}{5062DATA6Y}			%Te vinden op oa Datanose
 \newcommand{\datum}{\today}					%Pas aan als je niet de datum van vanaag wilt hebben
-\newcommand{\studentA}{Anonymous}
+\newcommand{\studentA}{Tijmen Zwaan}
 \newcommand{\uvanetidA}{10208917}
 %\newcommand{\studentB}{Naam student 2}			%Uncomment de regel als je met twee studenten werkt
 \newcommand{\uvanetidB}{UvAnetID student 2}
@@ -126,7 +126,17 @@ gespecificeerde tekst. Het moet daarbij ook mogelijk zijn om woorden uit het
 woordenboek te verwijderen. Het de bedoeling dat een trie-datastructuur
 gebruikt wordt.
 
-%\subsection{Definities}
+\subsection{Definities}
+\begin{itemize}
+    \item Node - Een punt in een netwerk of diagram waar lijnen of paden
+        kruisen of splitsen.
+    \item Edge - De connectie tussen twee nodes.
+    \item Child - Een node die een extensie is van een andere node.
+    \item Parent - De tegenovergestelde relatie als een child node.
+    \item Recursief proces - Een zichzelf herhalend proces.
+    \item Sequentieel proces - Een proces dat een aantal stappen doorloopt in
+        een vaste volgorde.
+\end{itemize}
 %\subsection{Vraagstelling}
 
 %----------------------------------------------------------------------------------------
@@ -135,23 +145,43 @@ gebruikt wordt.
 
 \section{Methode}
 De `trie' datastructuur lijkt op een normale `tree' datastructuur. Echter wordt
-er geen data in de nodes opgeslagen, maar in de edges van de trie. Zo zal er
-voor alle woorden in het woordenboek beginnend met dezelfde letter slechts
-\'e\'en node aangemaakt worden. De edge heeft daarbij de waarde van de letter,
-en de node bevat alleen nieuwe edges naar de volgende letters van de
-verschillende woorden.
+er geen data in de nodes opgeslagen, maar in de edges van de trie. Zo zullen
+alle woorden beginnend met dezelfde letter de children zijn van slechts \'e\'en
+node. De edge van die node heeft daarbij de waarde van de letter, en de node
+bevat alleen nieuwe edges naar de volgende letters van de verschillende
+woorden.
 
 \subsection{Algoritme}
-Er is gekozen voor een recursieve aanpak van deze datastructuur, aangezien
-iedere node zich hetzelfde gedraagt als zowel zijn children als zijn parents.
+Omdat iedere node in de trie zich hetzelfde gedraagt als zowel zijn children
+als zijn parents zijn veel delen goed aan te pakken op een recursieve manier.
+Omdat echter na testen bleek dat een sequentiele aanpak efficienter was voor
+het toevoegen van woorden is dit dus niet overal het geval.
 
-Op het moment bevat iedere node een pointer-array naar zijn children, en een
-flag of er een woord eindigt op die node. Echter zorgt dit ervoor dat er geen
-letters buiten het standaard alfabet gebruikt kunnen worden.
+Bij het toevoegen van een woord wordt eerst de start-node de actieve node. Er
+wordt dan gekeken naar de eerste letter van het woord. Als deze al bestaat als
+edge in de actieve node, wordt die node de nieuwe actieve node en gaat het
+algoritme door naar de volgende letter. Als deze nog niet bestaat, wordt de
+node aangemaakt en toegevoegd aan de actieve node. Daarna wordt de nieuw
+aangemaakte node de actieve node.\\
+Wanneer het eind van het woord bereikt is wordt in de actieve node de
+zogenaamde `end-flag' op `true' gezet. Wanneer later door de trie wordt gegaan
+zijn alle nodes waar deze `end-flag' op `true' staan woorden.
+
+Binnen elke node bestaat er een lijst met de karakters die zijn toegevoegd als
+children van de node. Daarnaast is er ook een lijst met de bijbehorende
+child-nodes. Deze lijsten staan in dezelfde volgorde. Wanneer een specifiek
+child wordt gezocht, wordt er gezocht in de eerste lijst van karakters.
+Wanneer het juiste karakter is gevonden weet het programma dus ook op welke
+plek de node in de andere array staat.\\
+Deze arrays worden vergroot wanneer ze vol zijn, en er moet een nieuw element
+bij.
+
 
 %\subsection{Diagram}
 %\subsection{Procedure}
 %\subsection{Software en apparatuur}
+
+\pagebreak
 
 %----------------------------------------------------------------------------------------
 %	RESULTATEN
@@ -159,7 +189,18 @@ letters buiten het standaard alfabet gebruikt kunnen worden.
 
 \section{Resultaten}
 
-Er zijn nog geen testresultaten.
+Om te testen hoe efficient dit algoritme is, heb ik het programma op teksten
+van verschillende groottes losgelaten. Uit de grafiek hieronder is duidelijk
+zichtbaar dat de tijd dat het programma bezig is lineair evenredig is aan het
+aantal woorden in de input.\\
+Als hier een zogenaamde linked-list datastructuur was gebruikt zoals in de
+vorige opgave, was dit exponentieel gebleken. Dit komt doordat bij een
+linked-list iedere keer door alle woorden gelopen moet worden tot het juiste
+woord is bereikt. Bij de trie structuur hangt de tijd per woord af van het
+aantal letters in het woord, niet van het aantal voorgaande woorden.\\
+
+\includegraphics[width=11cm]{grafiek}
+
 
 %----------------------------------------------------------------------------------------
 %	DISCUSSIE
@@ -167,7 +208,14 @@ Er zijn nog geen testresultaten.
 
 \section{Discussie}
 
-Er is nog geen discussie.
+In mijn eerste implementatie van dit probleem had ik besloten om in iedere node
+een array van 26 pointers neer te zetten. E\'en pointer voor iedere letter
+van het alphabet. Hierdoor is een pointer `NULL' wanneer de edge niet bestaat
+en anders wijst hij naar de juiste node. Dit zorgt ervoor dat er binnen een
+node niet gezocht hoeft te worden naar de edges. Echter limiteert dit het
+woordenboek tot slechts 26 tekens. Dit is in de huidige implementatie niet zo
+wat betekent dat alle karakters toegevoegd kunnen worden, maar er dus wel
+extra tijd nodig is om binnen een node te zoeken naar de correcte child-node.
 
 %\subsection{Implicaties en aanbevelingen}
 %\subsection{Conclusie}

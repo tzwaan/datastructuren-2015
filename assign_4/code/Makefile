@@ -18,12 +18,50 @@ autocomplete.o: trie.h
 %.txt: %.txt.gz
 	gzip -dk $<
 
-test: all war-and-peace-ascii.txt
-	./autocomplete -P test1.txt
-test2: all war-and-peace-ascii.txt
-	./autocomplete -P test2.txt
-test3: all war-and-peace-ascii.txt
-	./autocomplete -P war-and-peace-ascii.txt
+sort: all war-and-peace-ascii.txt
+	./autocomplete -P -S war-and-peace-ascii.txt
+alpha: all war-and-peace-ascii.txt
+	./autocomplete -P -s war-and-peace-ascii.txt
+
+time: all war-and-peace-ascii.txt
+	./autocomplete -L 100 war-and-peace-ascii.txt
+	@echo ----------
+	./autocomplete -L 200 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 400 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 800 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 1600 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 3200 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 6400 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 12800 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 25600 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 51200 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 102400 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 204800 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
+	./autocomplete -L 409600 war-and-peace-ascii.txt
+	@echo ----------
+	@echo
 
 check: all war-and-peace-ascii.txt
 	# short test
@@ -34,7 +72,7 @@ check: all war-and-peace-ascii.txt
 	# longer test
 	./autocomplete war-and-peace-ascii.txt
 	@echo
-	./autocomplete -p thea war-and-peace-ascii.txt
+	./autocomplete -p thea -P war-and-peace-ascii.txt
 
 clean:
 	rm -f *.o autocomplete war-and-peace-ascii.txt war-and-peace-mod-the.txt

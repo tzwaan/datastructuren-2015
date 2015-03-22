@@ -15,7 +15,10 @@ void usage(char* prog) {
     fprintf(stderr, "Usage %s\n"
                     "         [-p] prefix   : Print words with prefix\n"
                     "         [-r] rmfile   : Remove words in rmfile\n"
-                    "         [-P] rmfile   : Print trie\n"
+                    "         [-P]          : Print trie\n"
+                    "         [-s]          : Sort the trie alphabetically\n"
+                    "         [-S]          : Sort the trie by frequency\n"
+                    "         [-L] limit    : Limit the amount of words added from input by limit\n"
                     "         filename\n", prog);
     exit(EXIT_SUCCESS);
 }
@@ -24,14 +27,21 @@ int main(int argc, char* argv[]) {
     FILE *infile, *rmfile;
     char *w = NULL, *prefix = NULL, *rmfile_name = NULL;
     char *linebuf;
-    int opt, added = 0, print = 0;
+    int opt, added = 0, print = 0, sort = 0, sort_alphabet = 0, limit = 0,
+        nr_words = 0;
     clock_t start, end;
     double adding, removing, finding, cleaning;
     struct tnode *t;
 
     /* Handle command line arguments. */
-    while ((opt = getopt(argc, argv, "Pp:r:")) != -1) {
+    while ((opt = getopt(argc, argv, "Pp:r:SsL:")) != -1) {
         switch(opt) {
+            case 'S':
+                sort = 1;
+                break;
+            case 's':
+                sort_alphabet = 1;
+                break;
             case 'p':
                 prefix = optarg;
                 break;
@@ -41,11 +51,15 @@ int main(int argc, char* argv[]) {
             case 'r':
                 rmfile_name = optarg;
                 break;
+            case 'L':
+                limit = atoi(optarg);
+                break;
             default: /* '?' */
                 usage(argv[0]);
         }
     }
     if (optind >= argc) {
+        printf("ik kom hier \n");
         usage(argv[0]); // expect at least input filename.
     }
 
@@ -66,10 +80,11 @@ int main(int argc, char* argv[]) {
     start = clock();
     while (fgets(linebuf, BUF_SIZE, infile) != NULL) {
         w = strtok(linebuf, DELIM); // strtok receives the new line of text.
-        while (w) {
-            if (trie_add(t, w))
+        while (w && (nr_words < limit || !limit)) {
+            if (trie_add(t, w) == 1)
                 added += 1;
             w = strtok(NULL, DELIM); // get next token from current line.
+            nr_words++;
         }
     }
     end = clock();
@@ -78,6 +93,16 @@ int main(int argc, char* argv[]) {
 
     printf("Words added to trie: %d:\n", added);
     printf("Number of words in trie: %d\n", trie_count(t));
+
+    if (sort) {
+        printf("Sorting the trie\n");
+        trie_sort(t);
+    }
+
+    if (sort_alphabet) {
+        printf("Sorting alphabetically\n");
+        trie_sort_alphabet(t);
+    }
 
 
     if (prefix) {
@@ -103,7 +128,6 @@ int main(int argc, char* argv[]) {
         while (fgets(linebuf, BUF_SIZE, rmfile) != NULL) {
             w = strtok(linebuf, DELIM); // strtok receives the new line of text.
             while (w) {
-                printf("Removing word '%s'\n", w);
                 trie_remove(t, w);
                 w = strtok(NULL, DELIM); // get next token from current line.
             }
